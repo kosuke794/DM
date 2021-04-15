@@ -2,10 +2,10 @@ import tweepy
 import time
 import datetime
 
-API_KEY = "dGthRWlD3BttrAP51nqCsL6aA"
-API_SECRET = "er3L4mrpwoGNr6QZprfoQizRBOzWtMdoyPga29AHYdoBRTT4un"
-ACCESS_TOKEN = "996388339241566208-jWpL16HRYRrgy5c55irmPzOyMJy6ggU"
-ACCESS_TOKEN_SECRET = "zO1buYCwBmp9BD14HH9eOJOt6bEdLzQNa3Uoi6Mxhv332"
+API_KEY = ""
+API_SECRET = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 
 auth = tweepy.OAuthHandler(API_KEY,API_SECRET)
 auth.set_access_token(ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
@@ -13,9 +13,9 @@ auth.set_access_token(ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 
-my_screen_name = "basketball74516"
+my_screen_name = ""
 
-word_list = ["#朝活"]
+word_list = [""]
 word_num = 0
 
 result_mode = ["popular", "recent", "mixed"]
